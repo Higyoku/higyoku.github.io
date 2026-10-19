@@ -2,6 +2,7 @@
 
 <h2>About</h2>
 <p>Web開発を勉強中です。</p>
+<p></p>
 
 <h3>Profile</h3>
 <ul>
@@ -29,7 +30,6 @@
 </table>
 
 <h3>Works</h3>
-<!--<p>活動内容</p>-->
 <ul>
   <li>
     <a href="https://github.com/Higyoku">GitHub</a>
@@ -37,13 +37,40 @@
 </ul>
 
 <h3>Contact</h3>
-<p>連絡先</p>
 <ul>
   <li>
-    <a href="mailto:higyoku72@gmail.com">Mail</a>
+    <a href="mailto:higyoku72@gmail.com">e-mail</a>
   </li>
 </ul>
 
 <style>
-table
+  h1 {
+    text-align: center;
+  }
+  /* Table Layouting */
+  table {
+    table-layout: fixed;
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    /* boeder */
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+  }
+  th,
+  td {
+    padding: 0.6em;
+  }
+  tr :nth-child(2) {
+    text-align: center;
+    width: 50%;
+  }
+  tr :nth-child(1) {
+    text-align: left;
+    width: 10%;
+  }
+  /* zebra stripes */
+  tr:nth-child(odd) {
+    background-color: #eeeeee;
+  }
 </style>
